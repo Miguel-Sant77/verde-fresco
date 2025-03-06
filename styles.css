@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F3D9; /* Cor de fundo */
+    color: #333;
+}
+
+header {
+    background-color: #504B38; /* Cor do cabeçalho */
+    color: #F8F3D9; /* Cor do texto do cabeçalho */
+    padding: 10px 20px; /* Ajustar o padding para um visual mais agradável */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 100px; /* Ajustar o tamanho da logo */
+    height: auto;
+}
+
+header .title-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Aproximar o título da logo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px; /* Ajustar o tamanho da fonte do título */
+}
+
+header .header-text {
+    margin: 0;
+    font-size: 14px; /* Ajustar o tamanho da fonte do texto */
+    text-align: right; /* Alinhar o texto à direita */
+    max-width: 300px; /* Definir uma largura máxima para o texto */
+}
+
+nav {
+    background-color: #B9B28A; /* Cor da barra de navegação */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro {
+    background-color: #EBE5C2; /* Cor de fundo das seções */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    color: #504B38; /* Cor dos títulos */
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.icons {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.icons i {
+    font-size: 50px;
+    margin: 0 20px;
+    color: #28a745;
+}
+
+footer {
+    background-color: #504B38; /* Cor do rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .contact-info {
+    margin-top: 10px;
+}
+
+/* Estilos para a página de cadastro */
+#cadastro {
+    padding: 20px;
+}
+
+#cadastro form {
+    background-color: #EBE5C2; /* Cor de fundo do formulário */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cadastro label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#cadastro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#cadastro button {
+    background-color: #504B38; /* Cor do botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#cadastro button:hover {
+    background-color: #333;
+}
+
+/* Estilos para a seção de receitas sustentáveis */
+#receitas {
+    padding: 20px;
+}
+
+#receitas .container {
+    background-color: #EBE5C2; /* Cor de fundo das seções */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#receitas h2 {
+    color: #504B38; /* Cor dos títulos */
+}
+
+#receitas .receita {
+    margin-top: 20px;
+}
+
+#receitas .receita h3 {
+    color: #333;
+}
+
+#receitas .receita ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#receitas .receita p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos para a seção de produtos */
+#produtos {
+    padding: 20px;
+}
+
+#produtos .container {
+    background-color: #EBE5C2; /* Cor de fundo das seções */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#produtos h2 {
+    color: #504B38; /* Cor dos títulos */
+}
+
+#produtos p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #F8F3D9; /* Cor de fundo dos cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px; /* Definir altura fixa para as imagens */
+    object-fit: contain; /* Garantir que a imagem se ajuste ao tamanho definido sem ser cortada */
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    height: 60px; /* Definir altura fixa para a descrição */
+    overflow: hidden; /* Esconder o texto que ultrapassar a altura definida */
+    text-overflow: ellipsis; /* Adicionar reticências ao texto que ultrapassar a altura definida */
+}
