@@ -1,10 +1,6 @@
-@font-face {
-    font-family: 'Ekushey Punarbhaba';
-    src: url('assests/ekushey-punarbhaba-normal.ttf') format('truetype');
-}
 
 body {
-    font-family: 'Ekushey Punarbhaba', Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F8F3D9; /* Cor de fundo */
